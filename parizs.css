@@ -1,5 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color:RGB(213,227,246);
+    color: RGB(0,0,139);
 }
 
 .tartalom {
@@ -14,8 +16,23 @@ body {
 h1 {
     padding-top: 30px;
     margin-top: 0px;
+    font-size: 48px;
+    text-align: center;
 }
 
+h2{
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+h3{
+    font-size: 14px;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+}
 #latnivalok {
     background-image: url('diadaliv.jpg');
     min-height: 500px;
@@ -31,6 +48,7 @@ h1 {
 #kepeiffel
 {    
     margin: 0 10px;
+    float: right;
 }
 
 #keplouvre {    
@@ -55,22 +73,24 @@ table, table th, table td
     border-collapse: collapse;
 }
 
-#latnivalok table tr > td:nth-child(1) {
-  width: 210px;
+td:nth-child(n+2) {
+    text-align: center;
+    width: 120px;
 }
 
-#latnivalok table tr > td:nth-child(2) {
-  width: 120px;
-  text-align: center;
+td:nth-child(1) {
+    width: 210px;
 }
 
-#latnivalok table tr > td:nth-child(3) {
-  width: 120px;
-  text-align: center;
+th{
+    text-align: center;
 }
 
-#latnivalok table tr > td:nth-child(4) {
-  width: 120px;
-  text-align: center;
+#fejlec{
+    background-image: url('notredame.jpg');
+    height: 200px;
+}
+#kozep{
+    background-image: url('diadaliv.jpg');
 }
 
